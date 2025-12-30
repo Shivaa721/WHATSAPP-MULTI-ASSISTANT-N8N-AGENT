@@ -1,0 +1,39 @@
+# WhatsApp Customer Support Agent
+
+## Overview
+This project is a **WhatsApp-based customer support automation system** built using n8n.
+
+The agent is capable of handling **text, voice, and image messages**, simulating a real customer support workflow used by businesses.
+
+## Core Capabilities
+- Process incoming WhatsApp text messages
+- Transcribe and respond to voice messages
+- Analyze images and generate contextual responses
+- Route messages using internal logic
+- Send automated replies back to users
+
+## Key Features
+- Multi-modal input handling (Text, Voice, Image)
+- Automated response generation
+- Context-aware interactions
+- Clean and scalable workflow design
+
+## Tech Stack
+- n8n
+- WhatsApp Cloud API
+- OpenAI (Speech-to-Text, Image Understanding)
+
+## Workflow Logic
+1. Incoming WhatsApp message triggers the workflow
+2. Message type is detected (text, voice, or image)
+3. Relevant processing logic is applied
+4. Response is sent back to the user via WhatsApp
+
+## Use Cases
+- Customer support automation
+- Business WhatsApp assistants
+- Message-based service systems
+
+## Notes
+- This repository contains an exported **n8n workflow (JSON)**.
+- Designed to reflect real customer interaction workflows.
